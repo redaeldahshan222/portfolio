@@ -1,0 +1,54 @@
+
+.star-icon{
+    position: relative;
+    padding: 15px 0;
+}
+.star-icon::after{
+    content: '';
+    width: 5%;
+    height: 4px;
+    background-color: #2C3E50 !important;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+
+.star-icon::before{
+    content: '';
+    width: 5%;
+    height: 4px;
+    background-color: #2C3E50 !important;
+    position: absolute;
+    top: 50%;
+    right: 43%;
+}
+.data{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.form label{
+    display: flex;
+    position: absolute;
+    left: 25%;
+    top: 0;
+}
+
+
+.form-control {
+    border-radius: 0 !important;
+    border: transparent !important;
+    border-bottom:  1px solid #00000055 !important;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem transparent !important;
+}
+.form label{
+    display: none;
+}
+.form input{
+    margin: 10px 0;
+}

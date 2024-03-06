@@ -1,0 +1,10 @@
+.active{
+    background-color: #1ABC9C !important;
+    border-radius: 12px;
+}
+.nav-bg-color{
+    background-color: #2C3E50;
+}
+nav{
+    transition: 1s;
+}

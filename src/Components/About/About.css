@@ -1,0 +1,27 @@
+.about-bg-color{
+    background-color: #1ABC9C;
+}
+
+.stars{
+    position: relative;
+    padding: 15px 0;
+}
+.stars::after{
+    content: '';
+    width: 5%;
+    height: 4px;
+    background-color: #fff !important;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+
+.stars::before{
+    content: '';
+    width: 5%;
+    height: 4px;
+    background-color: #fff !important;
+    position: absolute;
+    top: 50%;
+    right: 43%;
+}

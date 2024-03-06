@@ -1,0 +1,31 @@
+.home-bg-color{
+    background-color: #1ABC9C;
+}
+.w-15{
+    width: 15rem !important;
+}
+.home{
+    padding: 200px 0 !important;
+}
+.star{
+    position: relative;
+}
+.star::after{
+    content: '';
+    width: 25%;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.star::before{
+    content: '';
+    width: 25%;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}

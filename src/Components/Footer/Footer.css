@@ -1,0 +1,26 @@
+.footer-bg-color{
+    background-color: #2C3E50;
+}
+.copyRight-bg-color{
+    background-color: #151E26;
+}
+.footer ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.footer ul li:hover{
+    border-color: #2C3E50;
+    background-color: #fff;
+}
+.footer .link{
+    cursor: pointer;
+    transition: .5s;
+}
+.footer ul li:hover .link{
+    color: #2C3E50 !important;
+}
